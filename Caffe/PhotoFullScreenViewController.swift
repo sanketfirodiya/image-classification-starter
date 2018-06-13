@@ -33,7 +33,6 @@ class PhotoFullScreenViewController: UIViewController {
   static let nibName = "PhotoFullScreenViewController"
 
   var image: UIImage?
-  var model = CatsDogs()
   
   @IBOutlet weak var label: UILabel!
   @IBOutlet weak var spinner: UIActivityIndicatorView!
@@ -49,17 +48,6 @@ class PhotoFullScreenViewController: UIViewController {
   }
 
   private func classifyImage(image: UIImage) {
-    DispatchQueue.global(qos: .background).async { [weak self] in
-      guard let strongSelf = self else { return }
-      
-      if let pixelBuffer = image.pixelBuffer(width: 227, height: 227), let prediction = try? strongSelf.model.prediction(data: pixelBuffer) {
-        DispatchQueue.main.async {
-          strongSelf.spinner.stopAnimating()
-          strongSelf.spinner.isHidden = true
-          strongSelf.label.isHidden = false
-          strongSelf.label.text = prediction.classLabel
-        }
-      }
-    }
+
   }
 }

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D35F7CE20B5CD52001936B9 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D35F7CD20B5CD52001936B9 /* UIImage+CVPixelBuffer.swift */; };
-		1D63978E20D025C7002CB62F /* CatsDogs.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1D63978D20D025C7002CB62F /* CatsDogs.mlmodel */; };
 		1D7B3BE920B1182D008A4FB3 /* PhotoGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B3BE720B1182D008A4FB3 /* PhotoGalleryCollectionViewCell.swift */; };
 		1D7B3BEA20B1182D008A4FB3 /* PhotoGalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D7B3BE820B1182D008A4FB3 /* PhotoGalleryCollectionViewCell.xib */; };
 		1D7B3BEF20B1D3DE008A4FB3 /* PhotoFullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B3BED20B1D3DE008A4FB3 /* PhotoFullScreenViewController.swift */; };
@@ -16,6 +15,7 @@
 		1D7B3BF220B296AC008A4FB3 /* PhotoGalleryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B3BF120B296AC008A4FB3 /* PhotoGalleryDataSource.swift */; };
 		1D836C2220B10DE60017C527 /* PhotoGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D836C2020B10DE60017C527 /* PhotoGalleryViewController.swift */; };
 		1D836C2320B10DE60017C527 /* PhotoGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D836C2120B10DE60017C527 /* PhotoGalleryViewController.xib */; };
+		1DF039DA20D0F0CB00190F2F /* CatsDogs.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1DF039D920D0F0CB00190F2F /* CatsDogs.mlmodel */; };
 		5C2901831F8F6DE700803663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */; };
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
@@ -23,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		1D35F7CD20B5CD52001936B9 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
-		1D63978D20D025C7002CB62F /* CatsDogs.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatsDogs.mlmodel; sourceTree = "<group>"; };
 		1D7B3BE720B1182D008A4FB3 /* PhotoGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 		1D7B3BE820B1182D008A4FB3 /* PhotoGalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoGalleryCollectionViewCell.xib; sourceTree = "<group>"; };
 		1D7B3BED20B1D3DE008A4FB3 /* PhotoFullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFullScreenViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +30,7 @@
 		1D7B3BF120B296AC008A4FB3 /* PhotoGalleryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryDataSource.swift; sourceTree = "<group>"; };
 		1D836C2020B10DE60017C527 /* PhotoGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryViewController.swift; sourceTree = "<group>"; };
 		1D836C2120B10DE60017C527 /* PhotoGalleryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoGalleryViewController.xib; sourceTree = "<group>"; };
+		1DF039D920D0F0CB00190F2F /* CatsDogs.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatsDogs.mlmodel; sourceTree = "<group>"; };
 		5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* Caffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		D2A5F1F71F4A9143005CD714 = {
 			isa = PBXGroup;
 			children = (
-				1D63978D20D025C7002CB62F /* CatsDogs.mlmodel */,
+				1DF039D920D0F0CB00190F2F /* CatsDogs.mlmodel */,
 				D2A5F2021F4A9144005CD714 /* Caffe */,
 				D2A5F2011F4A9144005CD714 /* Products */,
 			);
@@ -114,7 +114,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Razeware;
 				TargetAttributes = {
 					D2A5F1FF1F4A9144005CD714 = {
@@ -167,7 +167,7 @@
 				1D35F7CE20B5CD52001936B9 /* UIImage+CVPixelBuffer.swift in Sources */,
 				1D7B3BEF20B1D3DE008A4FB3 /* PhotoFullScreenViewController.swift in Sources */,
 				1D836C2220B10DE60017C527 /* PhotoGalleryViewController.swift in Sources */,
-				1D63978E20D025C7002CB62F /* CatsDogs.mlmodel in Sources */,
+				1DF039DA20D0F0CB00190F2F /* CatsDogs.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +188,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -195,6 +196,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -245,6 +247,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -252,6 +255,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
