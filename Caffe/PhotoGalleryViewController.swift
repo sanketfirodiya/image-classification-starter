@@ -38,7 +38,7 @@ class PhotoGalleryViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    navigationItem.title = "Caffe Tutorial"
+    navigationItem.title = "Cats vs Dogs"
 
     collectionView?.register(UINib(nibName: PhotoGalleryCollectionViewCell.nibName, bundle: nil), forCellWithReuseIdentifier: PhotoGalleryCollectionViewCell.reuseIdentifier)
     collectionView.dataSource = self

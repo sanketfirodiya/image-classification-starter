@@ -32,23 +32,8 @@ class PhotoGalleryDataSource: NSObject {
 
   static let itemList = PhotoGalleryDataSource.catList + PhotoGalleryDataSource.dogList
 
-  private static let catList: [String] = {
-    var catNames = [String]()
-    for i in 1...10 {
-      catNames.append("cat\(i)")
-    }
-
-    return catNames
-  }()
-
-  private static let dogList: [String] = {
-    var dogNames = [String]()
-    for i in 1...10 {
-      dogNames.append("dog\(i)")
-    }
-    
-    return dogNames
-  }()
+  private static let catList = (1...10).map { "cat\($0)" }
+  private static let dogList = (1...10).map { "dog\($0)" }
 
   static func numberOfSections(numberOfItemsPerSection: Int) -> Int {
     return itemList.count/numberOfItemsPerSection + itemList.count % numberOfItemsPerSection
